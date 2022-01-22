@@ -1,6 +1,6 @@
 import sys
 def Hours(mins):
-    '''mins convert to hours+mins'''
+    '''mins convert to hours mins'''
     if mins < 0:
         raise ValueError
     else:
