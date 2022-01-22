@@ -1,9 +1,10 @@
 import sys
 def Hours(mins):
-'''输入分钟数转化为小时数和分钟数'''
+    '''mins convert to hours+mins'''
     if mins < 0:
         raise ValueError
     else:
+    #   print("{} H, {} M".format(int(minute / 60), minute % 60))
         print('%s H, %s M' % divmod(mins, 60))
 try:
     Hours(int(sys.argv[1]))
